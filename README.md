@@ -1,5 +1,5 @@
-# NotepadPlusPlus
-
-Текстовый редактор
-C#, Windows Forms
-YaGPT
+# NotepadPlusPlus  
+  
+Текстовый редактор  
+C#, Windows Forms  
+YaGPT  
