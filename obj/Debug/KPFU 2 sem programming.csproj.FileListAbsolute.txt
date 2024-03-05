@@ -1,0 +1,18 @@
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\bin\Debug\KPFU 2 sem programming.exe.config
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\bin\Debug\KPFU 2 sem programming.exe
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\bin\Debug\KPFU 2 sem programming.pdb
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU 2 sem programming.csproj.AssemblyReference.cache
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU_2_sem_programming.Properties.Resources.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU 2 sem programming.csproj.GenerateResource.cache
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU 2 sem programming.csproj.CoreCompileInputs.cache
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU 2 sem programming.exe
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU 2 sem programming.pdb
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU_2_sem_programming.FormAbout.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU_2_sem_programming.FormSave.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU_2_sem_programming.FormMain.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU_2_sem_programming.FormFind.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU_2_sem_programming.FormAI.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU 2 sem programming.csproj.CopyComplete
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU_2_sem_programming.FormFindNone.resources
