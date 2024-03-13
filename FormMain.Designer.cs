@@ -27,8 +27,14 @@ namespace KPFU_2_sem_programming
         /// Требуемый метод для поддержки конструктора — не изменяйте 
         /// содержимое этого метода с помощью редактора кода.
         /// </summary>
+<<<<<<< Updated upstream
         private void InitializeComponent()
         {
+=======
+        private void InitializeComponent() {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+>>>>>>> Stashed changes
             this.mainMenuBar = new System.Windows.Forms.MenuStrip();
             this.menuItem_File = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_File_CreateFile = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,14 +66,34 @@ namespace KPFU_2_sem_programming
             this.menuItem_Reference_About = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItem_AI = new System.Windows.Forms.ToolStripMenuItem();
             this.mainTextField = new System.Windows.Forms.RichTextBox();
+            this.mainContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mainContextMenuZ = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.mainStatusBar = new System.Windows.Forms.StatusStrip();
             this.mainStatusBar_Symbols = new System.Windows.Forms.ToolStripStatusLabel();
             this.mainStatusBar_Strings = new System.Windows.Forms.ToolStripStatusLabel();
             this.mainStatusBar_Scale = new System.Windows.Forms.ToolStripStatusLabel();
             this.mainStatusBar_Encoding = new System.Windows.Forms.ToolStripStatusLabel();
             this.mainStatusBar_Version = new System.Windows.Forms.ToolStripStatusLabel();
+            this.mainToolStrip = new System.Windows.Forms.ToolStrip();
+            this.mainToolStripZ = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.mainToolStripX = new System.Windows.Forms.ToolStripButton();
+            this.mainToolStripC = new System.Windows.Forms.ToolStripButton();
+            this.mainToolStripV = new System.Windows.Forms.ToolStripButton();
+            this.mainToolStripDel = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.mainToolStripA = new System.Windows.Forms.ToolStripButton();
             this.mainMenuBar.SuspendLayout();
+            this.mainContextMenu.SuspendLayout();
             this.mainStatusBar.SuspendLayout();
+            this.mainToolStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainMenuBar
@@ -195,7 +221,7 @@ namespace KPFU_2_sem_programming
             this.menuItem_Correction_Undo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
             this.menuItem_Correction_Undo.Size = new System.Drawing.Size(296, 26);
             this.menuItem_Correction_Undo.Text = "Отменить действие";
-            this.menuItem_Correction_Undo.Click += new System.EventHandler(this.menuItem_Correction_Undo_Click);
+            this.menuItem_Correction_Undo.Click += new System.EventHandler(this.mainTextFieldZ);
             // 
             // menuItem_Correction_Separator3
             // 
@@ -209,7 +235,7 @@ namespace KPFU_2_sem_programming
             this.menuItem_Correction_Cut.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
             this.menuItem_Correction_Cut.Size = new System.Drawing.Size(296, 26);
             this.menuItem_Correction_Cut.Text = "Вырезать";
-            this.menuItem_Correction_Cut.Click += new System.EventHandler(this.menuItem_Correction_Cut_Click);
+            this.menuItem_Correction_Cut.Click += new System.EventHandler(this.mainTextFieldX);
             // 
             // menuItem_Correction_Copy
             // 
@@ -218,7 +244,7 @@ namespace KPFU_2_sem_programming
             this.menuItem_Correction_Copy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
             this.menuItem_Correction_Copy.Size = new System.Drawing.Size(296, 26);
             this.menuItem_Correction_Copy.Text = "Копировать";
-            this.menuItem_Correction_Copy.Click += new System.EventHandler(this.menuItem_Correction_Copy_Click);
+            this.menuItem_Correction_Copy.Click += new System.EventHandler(this.mainTextFieldC);
             // 
             // menuItem_Correction_Paste
             // 
@@ -227,7 +253,7 @@ namespace KPFU_2_sem_programming
             this.menuItem_Correction_Paste.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
             this.menuItem_Correction_Paste.Size = new System.Drawing.Size(296, 26);
             this.menuItem_Correction_Paste.Text = "Вставить";
-            this.menuItem_Correction_Paste.Click += new System.EventHandler(this.menuItem_Correction_Paste_Click);
+            this.menuItem_Correction_Paste.Click += new System.EventHandler(this.mainTextFieldV);
             // 
             // menuItem_Correction_Delete
             // 
@@ -235,7 +261,7 @@ namespace KPFU_2_sem_programming
             this.menuItem_Correction_Delete.ShortcutKeyDisplayString = "Del";
             this.menuItem_Correction_Delete.Size = new System.Drawing.Size(296, 26);
             this.menuItem_Correction_Delete.Text = "Удалить";
-            this.menuItem_Correction_Delete.Click += new System.EventHandler(this.menuItem_Correction_Delete_Click);
+            this.menuItem_Correction_Delete.Click += new System.EventHandler(this.mainTextFieldDel);
             // 
             // menuItem_Correction_Separator4
             // 
@@ -249,7 +275,7 @@ namespace KPFU_2_sem_programming
             this.menuItem_Correction_SelectAll.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
             this.menuItem_Correction_SelectAll.Size = new System.Drawing.Size(296, 26);
             this.menuItem_Correction_SelectAll.Text = "Выделить всё";
-            this.menuItem_Correction_SelectAll.Click += new System.EventHandler(this.menuItem_Correction_SelectAll_Click);
+            this.menuItem_Correction_SelectAll.Click += new System.EventHandler(this.mainTextFieldA);
             // 
             // menuItem_Format
             // 
@@ -262,7 +288,7 @@ namespace KPFU_2_sem_programming
             // menuItem_Format_Font
             // 
             this.menuItem_Format_Font.Name = "menuItem_Format_Font";
-            this.menuItem_Format_Font.Size = new System.Drawing.Size(140, 26);
+            this.menuItem_Format_Font.Size = new System.Drawing.Size(224, 26);
             this.menuItem_Format_Font.Text = "Шрифт";
             this.menuItem_Format_Font.Click += new System.EventHandler(this.menuItem_Format_Font_Click);
             // 
@@ -283,7 +309,7 @@ namespace KPFU_2_sem_programming
             this.menuItem_View_Scale_Recover});
             this.menuItem_View_Scale.Name = "menuItem_View_Scale";
             this.menuItem_View_Scale.ShortcutKeyDisplayString = "";
-            this.menuItem_View_Scale.Size = new System.Drawing.Size(216, 26);
+            this.menuItem_View_Scale.Size = new System.Drawing.Size(224, 26);
             this.menuItem_View_Scale.Text = "Масштаб";
             // 
             // menuItem_View_Scale_Up
@@ -318,7 +344,7 @@ namespace KPFU_2_sem_programming
             this.menuItem_View_StatusBar.Checked = true;
             this.menuItem_View_StatusBar.CheckState = System.Windows.Forms.CheckState.Checked;
             this.menuItem_View_StatusBar.Name = "menuItem_View_StatusBar";
-            this.menuItem_View_StatusBar.Size = new System.Drawing.Size(216, 26);
+            this.menuItem_View_StatusBar.Size = new System.Drawing.Size(224, 26);
             this.menuItem_View_StatusBar.Text = "Строка состояния";
             this.menuItem_View_StatusBar.Click += new System.EventHandler(this.menuItem_View_StatusBar_Click);
             // 
@@ -333,7 +359,7 @@ namespace KPFU_2_sem_programming
             // menuItem_Reference_About
             // 
             this.menuItem_Reference_About.Name = "menuItem_Reference_About";
-            this.menuItem_Reference_About.Size = new System.Drawing.Size(187, 26);
+            this.menuItem_Reference_About.Size = new System.Drawing.Size(224, 26);
             this.menuItem_Reference_About.Text = "О программе";
             this.menuItem_Reference_About.Click += new System.EventHandler(this.menuItem_Reference_About_Click);
             // 
@@ -347,14 +373,82 @@ namespace KPFU_2_sem_programming
             // mainTextField
             // 
             this.mainTextField.BackColor = System.Drawing.SystemColors.Window;
-            this.mainTextField.Location = new System.Drawing.Point(10, 40);
+            this.mainTextField.ContextMenuStrip = this.mainContextMenu;
+            this.mainTextField.Location = new System.Drawing.Point(10, 67);
             this.mainTextField.Margin = new System.Windows.Forms.Padding(0);
             this.mainTextField.Name = "mainTextField";
-            this.mainTextField.Size = new System.Drawing.Size(780, 397);
+            this.mainTextField.Size = new System.Drawing.Size(780, 374);
             this.mainTextField.TabIndex = 1;
             this.mainTextField.Text = "";
             this.mainTextField.TextChanged += new System.EventHandler(this.mainTextField_TextChanged);
             this.mainTextField.KeyUp += new System.Windows.Forms.KeyEventHandler(this.mainTextField_KeyUp);
+            // 
+            // mainContextMenu
+            // 
+            this.mainContextMenu.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.mainContextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mainContextMenuZ,
+            this.toolStripSeparator1,
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5,
+            this.toolStripSeparator2,
+            this.toolStripMenuItem6});
+            this.mainContextMenu.Name = "mainContextMenu";
+            this.mainContextMenu.Size = new System.Drawing.Size(173, 160);
+            // 
+            // mainContextMenuZ
+            // 
+            this.mainContextMenuZ.Name = "mainContextMenuZ";
+            this.mainContextMenuZ.Size = new System.Drawing.Size(172, 24);
+            this.mainContextMenuZ.Text = "Отменить";
+            this.mainContextMenuZ.Click += new System.EventHandler(this.mainTextFieldZ);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(169, 6);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(172, 24);
+            this.toolStripMenuItem2.Text = "Вырезать";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.mainTextFieldX);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(172, 24);
+            this.toolStripMenuItem3.Text = "Копировать";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.mainTextFieldC);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(172, 24);
+            this.toolStripMenuItem4.Text = "Вставить";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.mainTextFieldV);
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(172, 24);
+            this.toolStripMenuItem5.Text = "Удалить";
+            this.toolStripMenuItem5.Click += new System.EventHandler(this.mainTextFieldDel);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(169, 6);
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(172, 24);
+            this.toolStripMenuItem6.Text = "Выделить все";
+            this.toolStripMenuItem6.Click += new System.EventHandler(this.mainTextFieldA);
             // 
             // mainStatusBar
             // 
@@ -377,7 +471,11 @@ namespace KPFU_2_sem_programming
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.mainStatusBar_Symbols.Name = "mainStatusBar_Symbols";
+<<<<<<< Updated upstream
             this.mainStatusBar_Symbols.Size = new System.Drawing.Size(147, 24);
+=======
+            this.mainStatusBar_Symbols.Size = new System.Drawing.Size(212, 24);
+>>>>>>> Stashed changes
             this.mainStatusBar_Symbols.Spring = true;
             this.mainStatusBar_Symbols.Text = "Символов:";
             this.mainStatusBar_Symbols.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -388,7 +486,11 @@ namespace KPFU_2_sem_programming
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.mainStatusBar_Strings.Name = "mainStatusBar_Strings";
+<<<<<<< Updated upstream
             this.mainStatusBar_Strings.Size = new System.Drawing.Size(147, 24);
+=======
+            this.mainStatusBar_Strings.Size = new System.Drawing.Size(212, 24);
+>>>>>>> Stashed changes
             this.mainStatusBar_Strings.Spring = true;
             this.mainStatusBar_Strings.Text = "Строк: ";
             this.mainStatusBar_Strings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -399,7 +501,11 @@ namespace KPFU_2_sem_programming
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) 
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.mainStatusBar_Scale.Name = "mainStatusBar_Scale";
+<<<<<<< Updated upstream
             this.mainStatusBar_Scale.Size = new System.Drawing.Size(147, 24);
+=======
+            this.mainStatusBar_Scale.Size = new System.Drawing.Size(212, 24);
+>>>>>>> Stashed changes
             this.mainStatusBar_Scale.Spring = true;
             this.mainStatusBar_Scale.Text = "Масштаб: ";
             this.mainStatusBar_Scale.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -420,7 +526,106 @@ namespace KPFU_2_sem_programming
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.mainStatusBar_Version.Name = "mainStatusBar_Version";
             this.mainStatusBar_Version.Size = new System.Drawing.Size(100, 24);
+<<<<<<< Updated upstream
             this.mainStatusBar_Version.Text = "Версия: 1.6.0";
+=======
+            this.mainStatusBar_Version.Text = "Версия: 1.7.0";
+            // 
+            // mainToolStrip
+            // 
+            this.mainToolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.mainToolStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.mainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mainToolStripZ,
+            this.toolStripSeparator3,
+            this.mainToolStripX,
+            this.mainToolStripC,
+            this.mainToolStripV,
+            this.mainToolStripDel,
+            this.toolStripSeparator4,
+            this.mainToolStripA});
+            this.mainToolStrip.Location = new System.Drawing.Point(0, 28);
+            this.mainToolStrip.Name = "mainToolStrip";
+            this.mainToolStrip.Size = new System.Drawing.Size(803, 27);
+            this.mainToolStrip.TabIndex = 3;
+            this.mainToolStrip.Text = "toolStrip1";
+            // 
+            // mainToolStripZ
+            // 
+            this.mainToolStripZ.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mainToolStripZ.Image = ((System.Drawing.Image)(resources.GetObject("mainToolStripZ.Image")));
+            this.mainToolStripZ.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mainToolStripZ.Name = "mainToolStripZ";
+            this.mainToolStripZ.Size = new System.Drawing.Size(29, 24);
+            this.mainToolStripZ.Text = "toolStripButton1";
+            this.mainToolStripZ.ToolTipText = "Отменить";
+            this.mainToolStripZ.Click += new System.EventHandler(this.mainTextFieldZ);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
+            // 
+            // mainToolStripX
+            // 
+            this.mainToolStripX.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mainToolStripX.Image = ((System.Drawing.Image)(resources.GetObject("mainToolStripX.Image")));
+            this.mainToolStripX.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mainToolStripX.Name = "mainToolStripX";
+            this.mainToolStripX.Size = new System.Drawing.Size(29, 24);
+            this.mainToolStripX.Text = "toolStripButton2";
+            this.mainToolStripX.ToolTipText = "Вырезать";
+            this.mainToolStripX.Click += new System.EventHandler(this.mainTextFieldX);
+            // 
+            // mainToolStripC
+            // 
+            this.mainToolStripC.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mainToolStripC.Image = ((System.Drawing.Image)(resources.GetObject("mainToolStripC.Image")));
+            this.mainToolStripC.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mainToolStripC.Name = "mainToolStripC";
+            this.mainToolStripC.Size = new System.Drawing.Size(29, 24);
+            this.mainToolStripC.Text = "toolStripButton3";
+            this.mainToolStripC.ToolTipText = "Копировать";
+            this.mainToolStripC.Click += new System.EventHandler(this.mainTextFieldC);
+            // 
+            // mainToolStripV
+            // 
+            this.mainToolStripV.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mainToolStripV.Image = ((System.Drawing.Image)(resources.GetObject("mainToolStripV.Image")));
+            this.mainToolStripV.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mainToolStripV.Name = "mainToolStripV";
+            this.mainToolStripV.Size = new System.Drawing.Size(29, 24);
+            this.mainToolStripV.Text = "toolStripButton4";
+            this.mainToolStripV.ToolTipText = "Вставить";
+            this.mainToolStripV.Click += new System.EventHandler(this.mainTextFieldV);
+            // 
+            // mainToolStripDel
+            // 
+            this.mainToolStripDel.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mainToolStripDel.Image = ((System.Drawing.Image)(resources.GetObject("mainToolStripDel.Image")));
+            this.mainToolStripDel.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mainToolStripDel.Name = "mainToolStripDel";
+            this.mainToolStripDel.Size = new System.Drawing.Size(29, 24);
+            this.mainToolStripDel.Text = "toolStripButton5";
+            this.mainToolStripDel.ToolTipText = "Удалить";
+            this.mainToolStripDel.Click += new System.EventHandler(this.mainTextFieldDel);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
+            // 
+            // mainToolStripA
+            // 
+            this.mainToolStripA.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mainToolStripA.Image = ((System.Drawing.Image)(resources.GetObject("mainToolStripA.Image")));
+            this.mainToolStripA.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mainToolStripA.Name = "mainToolStripA";
+            this.mainToolStripA.Size = new System.Drawing.Size(29, 24);
+            this.mainToolStripA.Text = "toolStripButton6";
+            this.mainToolStripA.ToolTipText = "Выделить все";
+            this.mainToolStripA.Click += new System.EventHandler(this.mainTextFieldA);
+>>>>>>> Stashed changes
             // 
             // FormMain
             // 
@@ -428,6 +633,7 @@ namespace KPFU_2_sem_programming
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(803, 474);
+            this.Controls.Add(this.mainToolStrip);
             this.Controls.Add(this.mainStatusBar);
             this.Controls.Add(this.mainTextField);
             this.Controls.Add(this.mainMenuBar);
@@ -437,8 +643,11 @@ namespace KPFU_2_sem_programming
             this.Resize += new System.EventHandler(this.FormMain_Resize);
             this.mainMenuBar.ResumeLayout(false);
             this.mainMenuBar.PerformLayout();
+            this.mainContextMenu.ResumeLayout(false);
             this.mainStatusBar.ResumeLayout(false);
             this.mainStatusBar.PerformLayout();
+            this.mainToolStrip.ResumeLayout(false);
+            this.mainToolStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -489,6 +698,24 @@ namespace KPFU_2_sem_programming
         private System.Windows.Forms.ToolStripStatusLabel mainStatusBar_Version;
         private System.Windows.Forms.ToolStripMenuItem menuItem_AI;
         public System.Windows.Forms.RichTextBox mainTextField;
+        private System.Windows.Forms.ContextMenuStrip mainContextMenu;
+        private System.Windows.Forms.ToolStripMenuItem mainContextMenuZ;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
+        private System.Windows.Forms.ToolStrip mainToolStrip;
+        private System.Windows.Forms.ToolStripButton mainToolStripZ;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripButton mainToolStripX;
+        private System.Windows.Forms.ToolStripButton mainToolStripC;
+        private System.Windows.Forms.ToolStripButton mainToolStripV;
+        private System.Windows.Forms.ToolStripButton mainToolStripDel;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripButton mainToolStripA;
     }
 }
 

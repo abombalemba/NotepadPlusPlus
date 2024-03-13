@@ -16,3 +16,21 @@ C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\bin\Debug\Newton
 C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU 2 sem programming.csproj.CopyComplete
 C:\Users\Владислав\Source\Repos\KPFU 2 sem programming\obj\Debug\KPFU_2_sem_programming.FormFindNone.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\bin\Debug\KPFU 2 sem programming NotepadPlusPlus.exe.config
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\bin\Debug\KPFU 2 sem programming NotepadPlusPlus.exe
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\bin\Debug\KPFU 2 sem programming NotepadPlusPlus.pdb
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU 2 sem programming.csproj.AssemblyReference.cache
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU_2_sem_programming_NotepadPlusPlus.FormAI.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU_2_sem_programming_NotepadPlusPlus.FormFind.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU_2_sem_programming_NotepadPlusPlus.FormFindNone.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU_2_sem_programming_NotepadPlusPlus.FormMain.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU_2_sem_programming_NotepadPlusPlus.FormAbout.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU_2_sem_programming_NotepadPlusPlus.FormSave.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU_2_sem_programming_NotepadPlusPlus.Properties.Resources.resources
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU 2 sem programming.csproj.GenerateResource.cache
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU 2 sem programming.csproj.CoreCompileInputs.cache
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU 2 sem programming.csproj.CopyComplete
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU 2 sem programming NotepadPlusPlus.exe
+C:\Users\Владислав\Source\Repos\KPFU 2 sem programming NotepadPlusPlus\obj\Debug\KPFU 2 sem programming NotepadPlusPlus.pdb

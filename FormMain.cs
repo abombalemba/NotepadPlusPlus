@@ -126,29 +126,28 @@ namespace KPFU_2_sem_programming {
             this.Close();
         }
 
-        private void menuItem_Correction_Undo_Click(object sender, EventArgs e) {
+        private void mainTextFieldZ(object sender, EventArgs e) {
             mainTextField.Undo();
         }
 
-        private void menuItem_Correction_Cut_Click(object sender, EventArgs e) {
+        private void mainTextFieldX(object sender, EventArgs e) {
             mainTextField.Cut();
         }
 
-        private void menuItem_Correction_Copy_Click(object sender, EventArgs e) {
+        private void mainTextFieldC(object sender, EventArgs e) {
             if (mainTextField.SelectedText.Length == 0) return;
             Clipboard.SetText(mainTextField.SelectedText);
         }
 
-        private void menuItem_Correction_Paste_Click(object sender, EventArgs e) {
+        private void mainTextFieldV(object sender, EventArgs e) {
             mainTextField.Paste();
         }
 
-
-        private void menuItem_Correction_Delete_Click(object sender, EventArgs e) {
+        private void mainTextFieldDel(object sender, EventArgs e) {
             mainTextField.Cut();
         }
 
-        private void menuItem_Correction_SelectAll_Click(object sender, EventArgs e) {
+        private void mainTextFieldA(object sender, EventArgs e) {
             mainTextField.SelectAll();
             mainTextField.Focus();
         }
@@ -237,9 +236,7 @@ namespace KPFU_2_sem_programming {
 
         private void resizeForm() {
             mainTextField.Width = this.Width - 30;
-            mainTextField.Height = this.Height - 100;
-
-
+            mainTextField.Height = this.Height - 120;
         }
 
         private void updateStatusBar() {
