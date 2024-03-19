@@ -3,13 +3,13 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Drawing.Printing;
 
-namespace KPFU_2_sem_programming {
+namespace KPFU_2_sem_programming_NotepadPlusPlus {
     public partial class FormMain : Form {
         public const string title = "БлокнотПлюсПлюс";
         public const string unNamed = "Безымянный";
 
-        public const string pathIconBlue = "Resourses/csharp_blue.ico";
-        public const string pathIconRed = "Resourses/csharp_red.ico";
+        public static string pathIconBlue = "Resources/csharp_blue.ico";
+        public static string pathIconRed = "Resources/csharp_red.ico";
 
         public string fileName = unNamed;
         public bool fileIsNew = true;
@@ -22,7 +22,6 @@ namespace KPFU_2_sem_programming {
 
         public FormMain() {
             InitializeComponent();
-            this.Icon = new Icon(pathIconRed);
 
             ofd.Filter = "Text file|*.txt|Rich Text Format file|*.rtf|Any format|*.*";
             sfd.Filter = "Text file|*.txt|Rich Text Format file|*.rtf|Any format|*.*";

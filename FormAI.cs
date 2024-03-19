@@ -5,12 +5,17 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using Newtonsoft.Json;
+using System.Xml;
+using System.IO;
+using System.Drawing;
 
-namespace KPFU_2_sem_programming {
+namespace KPFU_2_sem_programming_NotepadPlusPlus {
     public partial class FormAI : Form {
         HttpClient httpClientYaGPT = new HttpClient();
 
-        string URL = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion";
+        string URL;
+        string urlModel;
+        string apiKey;
 
         static Dictionary<string, string> promptRetelling = new Dictionary<string, string> {
             { "role", "system" },
@@ -19,14 +24,13 @@ namespace KPFU_2_sem_programming {
 
         static Dictionary<string, string> promptSqueeze = new Dictionary<string, string> {
             { "role", "system" },
-            { "text", "Твоя задача - сократить текст, сохранив его смысл. Текст должен быть примерно в 2 раза меньше исходног. Соблюдай все правила русского языка." } 
+            { "text", "Твоя задача - сократить текст, сохранив его смысл. Текст должен быть примерно в 2 раза меньше исходного. Соблюдай все правила русского языка." } 
         };
 
         static Dictionary<string, string> promptExpand = new Dictionary<string, string> {
             { "role", "system" },
             { "text", "Твоя задача - расширить текст, сохранив его смысл. Текст должен быть примерно в 2 раза больше исходного. Соблюдай все правила русского языка." }
-        };       
-
+        };
 
         public class Alternative {
             public Message message { get; set; }
@@ -54,14 +58,25 @@ namespace KPFU_2_sem_programming {
             public string totalTokens { get; set; }
         }
 
-
         public FormAI(string text) {
             InitializeComponent();
+
+            this.Icon = new Icon(FormMain.pathIconBlue);
+
+            try {
+                prepareSecretData();
+            } catch (Exception ex) {
+                MessageBox.Show(ex.ToString(), "Ошибка");
+
+                this.DialogResult = DialogResult.No;
+                this.Close();
+                return;
+            }
 
             aiTextField.Text = text;
 
             httpClientYaGPT.DefaultRequestHeaders.Add(
-                "Authorization", "Api-Key AQVNzTYlq4k9LFFhOswiN9V4bmgedQqoB-cTjOuf"
+                "Authorization", "Api-Key" + " " + apiKey
             );
             httpClientYaGPT.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json")
@@ -90,7 +105,7 @@ namespace KPFU_2_sem_programming {
             );
 
             Dictionary<string, object> requestPrompt = new Dictionary<string, object> {
-                { "modelUri", "gpt://b1go86v66mg61k1slt05/yandexgpt-lite" }, {
+                { "modelUri", urlModel }, {
                     "completionOptions", new Dictionary<string, object> {
                         { "stream", false },
                         { "temperature", 0.3 },
@@ -99,8 +114,6 @@ namespace KPFU_2_sem_programming {
                 },
                 { "messages", messages }
             };
-
-            
 
             string requestPromptJSON = JsonConvert.SerializeObject(requestPrompt);
 
@@ -145,6 +158,16 @@ namespace KPFU_2_sem_programming {
         private void aiButtonCancel_Click(object sender, EventArgs e) {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+        }
+
+        private void prepareSecretData() {
+            XmlDocument file = new XmlDocument();
+            file.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources/secrets.xml"));
+            XmlNode node = file.DocumentElement;
+
+            URL = node["YandexCloud"].InnerText;
+            urlModel = node["UrlModel"].InnerText;
+            apiKey = node["ApiKey"].InnerText;
         }
     }
 }

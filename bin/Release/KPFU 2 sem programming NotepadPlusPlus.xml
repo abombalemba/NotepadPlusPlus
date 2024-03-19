@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KPFU 2 sem programming NotepadPlusPlus</name>
+    </assembly>
+    <members>
+        <member name="F:KPFU_2_sem_programming_NotepadPlusPlus.FormAI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormAI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormAI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KPFU_2_sem_programming_NotepadPlusPlus.FormFind.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormFind.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormFind.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KPFU_2_sem_programming_NotepadPlusPlus.FormFindNone.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormFindNone.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormFindNone.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KPFU_2_sem_programming_NotepadPlusPlus.FormMain.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormMain.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormMain.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="F:KPFU_2_sem_programming_NotepadPlusPlus.FormAbout.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormAbout.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormAbout.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:KPFU_2_sem_programming_NotepadPlusPlus.FormSave.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormSave.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.FormSave.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:KPFU_2_sem_programming_NotepadPlusPlus.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:KPFU_2_sem_programming_NotepadPlusPlus.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:KPFU_2_sem_programming_NotepadPlusPlus.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:KPFU_2_sem_programming_NotepadPlusPlus.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+    </members>
+</doc>

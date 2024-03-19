@@ -1,5 +1,5 @@
 ﻿
-namespace KPFU_2_sem_programming {
+namespace KPFU_2_sem_programming_NotepadPlusPlus {
     partial class FormFindNone {
         /// <summary>
         /// Required designer variable.

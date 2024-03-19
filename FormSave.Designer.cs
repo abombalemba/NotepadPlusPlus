@@ -1,8 +1,6 @@
 ﻿
-namespace KPFU_2_sem_programming
-{
-    partial class FormSave
-    {
+namespace KPFU_2_sem_programming_NotepadPlusPlus {
+    partial class FormSave {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -12,10 +10,8 @@ namespace KPFU_2_sem_programming
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -27,8 +23,7 @@ namespace KPFU_2_sem_programming
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             this.saveButtonSave = new System.Windows.Forms.Button();
             this.saveButtonDontSave = new System.Windows.Forms.Button();
             this.saveButtonCancel = new System.Windows.Forms.Button();
@@ -67,10 +62,10 @@ namespace KPFU_2_sem_programming
             // 
             // saveLabel
             // 
-            this.saveLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.saveLabel.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.saveLabel.AutoSize = true;
-            this.saveLabel.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.saveLabel.Font = new System.Drawing.Font("Microsoft PhagsPa", 10.11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.saveLabel.ForeColor = System.Drawing.Color.SlateBlue;
             this.saveLabel.Location = new System.Drawing.Point(31, 9);
             this.saveLabel.Name = "saveLabel";

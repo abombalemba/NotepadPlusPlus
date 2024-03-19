@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KPFU_2_sem_programming {
+namespace KPFU_2_sem_programming_NotepadPlusPlus {
     public partial class FormFindNone : Form {
         public FormFindNone(string text) {
             InitializeComponent();
+
+            this.Icon = new Icon(FormMain.pathIconRed);
 
             findNoneLabel.Text = String.Format("Не удается найти: \"{0}\"", text);
         }

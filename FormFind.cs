@@ -1,13 +1,17 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
-namespace KPFU_2_sem_programming {
+namespace KPFU_2_sem_programming_NotepadPlusPlus {
     public partial class FormFind : Form {
         public RichTextBox mainTextField;
         public int startIndex = 0;
 
         public FormFind(ref RichTextBox richTextBox) {
             InitializeComponent();
+
+            this.Icon = new Icon(FormMain.pathIconBlue);
+
             mainTextField = richTextBox;
             startIndex = mainTextField.SelectionStart;
         }

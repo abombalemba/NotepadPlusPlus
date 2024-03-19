@@ -1,6 +1,5 @@
 ﻿
-namespace KPFU_2_sem_programming
-{
+namespace KPFU_2_sem_programming_NotepadPlusPlus {
     partial class FormFind
     {
         /// <summary>
