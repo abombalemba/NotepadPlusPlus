@@ -2,4 +2,4 @@
   
 Текстовый редактор  
 C#, Windows Forms  
-YaGPT  
+YandexGPT  
