@@ -1,5 +1,3 @@
 .vs/
-/bin/Debug/Resources/secrets.xml
-/bin/Release/Resources/secrets.xml
-obj/
+/obj/
 packages/
