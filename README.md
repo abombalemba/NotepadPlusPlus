@@ -1,6 +1,8 @@
 # NotepadPlusPlus  
   
 Текстовый редактор  
+Windows Notepad  
+
 C#, Windows Forms  
 YandexGPT  
 
